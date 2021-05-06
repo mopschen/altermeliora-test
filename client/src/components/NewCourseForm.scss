@@ -1,0 +1,41 @@
+.course-form {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__input {
+    min-width: 262px;
+    padding: 0 12px;
+    height: 42px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    min-width: 200px;
+    height: 42px;
+    font-size: 20px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+    @media (max-width: 768px) {
+      min-width: 290px;
+    }
+
+    &:hover {
+      background-color: #6f6fde;
+    }
+  }
+}
