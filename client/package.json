@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --mode development --config webpack.config.js --progress"
+    "start": "webpack serve --mode development --config webpack.config.js --progress"
   },
   "keywords": [],
   "author": "",
